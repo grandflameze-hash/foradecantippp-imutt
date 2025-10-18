@@ -1027,5 +1027,37 @@ body {
 }
 
 
+/* === RESPONSIVE: BUNGA BESAR DI HP === */
+
+/* Untuk layar sedang (tablet) */
+@media (max-width: 768px) {
+  .flowers {
+    transform: scale(1.1); /* sedikit lebih besar */
+  }
+
+  .typewriter-text {
+    font-size: 1.4rem; /* teks sedikit lebih kecil biar tetap muat */
+  }
+
+  .typewriter-container {
+    top: 8%; /* teks agak naik */
+  }
+}
+
+/* Untuk layar kecil (HP) */
+@media (max-width: 480px) {
+  .flowers {
+    transform: scale(1.3); /* bunga jadi besar banget di HP */
+  }
+
+  .typewriter-text {
+    font-size: 1.1rem; /* teks lebih kecil biar gak ketimpa bunga */
+  }
+
+  .typewriter-container {
+    top: 5%; /* teks tetap di atas bunga */
+  }
+}
+
 
 /*# sourceMappingURL=style.css.map */
